@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LockJaw - Profile</title>
+
+    <!-- style here -->
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- copy header from contact page -->
+    <header>
+      <!-- will appear on min-width 768px and on contacts and profile page -->
+      <div id="logo-holder">
+        <h2>LockJaw</h2>
+      </div>
+
+      <button id="cart-button">Cart</button>
+    </header>
+
+    <!-- copy nav from homepage -->
+    <!-- navigation placed at the bottom -->
+    <nav>
+      <div id="navigation-holder">
+        <!-- home -->
+        <a href="/home_page.html" id="home-nav">Home</a>
+
+        <!-- contact page -->
+        <!-- active -->
+        <a href="/pages/contact_page.html" id="contact-nav">Contact</a>
+
+        <!-- profile -->
+        <a href="#" id="profile-nav">Profile</a>
+      </div>
+    </nav>
+
+    <!-- main and sidebar cart wrapper -->
+    <div class="main-sidebar-wrapper">
+      <!-- main content -->
+      <main>
+        <!-- profile-page container -->
+        <div id="profile-page">
+          <!-- profile header -->
+          <section id="profile-header-section">
+            <!-- header backdrop and wrapper-->
+            <div id="header-backdrop">
+              <!-- profile holder -->
+              <div id="profile-holder">
+                <!-- profile image -->
+                <div id="profile-image"></div>
+
+                <!-- user info -->
+                <div id="user-info-wrapper">
+                  <h3 id="username-label">jdoe99</h3>
+                  <p id="fullname-label">John Doe Batumbakal</p>
+                </div>
+              </div>
+
+              <!-- profile header buttons holder -->
+              <div id="profile-header-buttons">
+                <button id="edit-profile-button">Edit</button>
+                <button id="logout-profile-button">Log-out</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- purchases section -->
+          <section id="purchases-section">
+            <h2 id="purchases-label">Purchases</h2>
+
+            <!-- purchases holder -->
+            <div id="purchases-holder">
+              <!-- status buttons holder: pending, to receive, to rate -->
+              <div id="status-buttons-holder">
+                <!-- pending -->
+                <div class="status-button">
+                  <!-- icon here -->
+                  <div class="status-icon"></div>
+                  <p class="status-label">Pending</p>
+                </div>
+
+                <!-- to receive -->
+                <div class="status-button">
+                  <!-- icon here -->
+                  <div class="status-icon"></div>
+                  <p class="status-label">To Receive</p>
+                </div>
+
+                <!-- to rate -->
+                <div class="status-button">
+                  <!-- icon here -->
+                  <div class="status-icon"></div>
+                  <p class="status-label">To Rate</p>
+                </div>
+              </div>
+
+              <!-- purchases history -->
+              <div id="purchases-history">
+                <h3 id="history-label">Purchases History</h3>
+
+                <!-- history container -->
+                <div id="history-holder">
+                  <!-- will contain histories of purchases -->
+                </div>
+              </div>
+
+              <!--  -->
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- sidebar -->
+      <div class="sidebar" id="sidebar-id">
+        <!-- cart items holder -->
+        <div class="cart-items-holder">
+          <!-- cart item 1 -->
+          <div class="cart-item">
+            <!-- cart item checkbox image and info wrapper -->
+            <div class="cart-item-image-info-wrapper">
+              <!-- checkbox -->
+              <input type="checkbox" name="check-item" class="check-item" />
+              <!-- cart item image -->
+              <div class="cart-item-image"></div>
+
+              <!-- cart item info -->
+              <div class="cart-item-info-wrapper">
+                <h4 class="cart-item-name">Item name</h4>
+                <p class="cart-item-variation">variation</p>
+                <p class="cart-item-price">P 100.00</p>
+              </div>
+            </div>
+
+            <!-- item counter -->
+            <div class="cart-item-counter"></div>
+          </div>
+
+          <!-- cart item # -->
+        </div>
+
+        <!-- sidebar buttons holder -->
+        <div class="sidebar-buttons-holder">
+          <button class="sidebar-remove">Remove</button>
+          <button class="sidebar-checkout">Check Out</button>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+
+    <!-- script here -->
+    <script src="/assets/script.js"></script>
+  </body>
+</html>

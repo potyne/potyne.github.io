@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LockJaw - Contact</title>
+
+    <!-- style here -->
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- copy header from home page -->
+    <header>
+      <!-- will appear on min-width 768px and on contacts and profile page -->
+      <div id="logo-holder">
+        <h2>LockJaw</h2>
+      </div>
+
+      <!-- navigation for home, will disappear on contacts and profile page -->
+
+      <!-- <div id="search-and-cart">
+        <div id="search-holder">
+          <input type="search" name="search-item" id="search-bar" />
+          <button id="search-button">Search</button>
+        </div> -->
+
+      <button id="cart-button">Cart</button>
+      <!-- </div> -->
+    </header>
+
+    <!-- copy nav from homepage -->
+    <!-- navigation placed at the bottom -->
+    <nav>
+      <div id="navigation-holder">
+        <!-- home -->
+        <a href="/home_page.html" id="home-nav">Home</a>
+
+        <!-- contact page -->
+        <!-- active -->
+        <a href="#" id="contact-nav">Contact</a>
+
+        <!-- profile -->
+        <a href="/pages/profile_page.html" id="profile-nav">Profile</a>
+      </div>
+    </nav>
+
+    <!-- main and sidebar wrapper -->
+    <div class="main-sidebar-wrapper">
+      <!-- main content -->
+      <main>
+        <!-- contacts page -->
+        <div id="contact-page">
+          <!-- faq section -->
+          <section id="faqs-section">
+            <h2 class="contacts-page-labels">FAQs</h2>
+
+            <!-- faqs container -->
+            <div id="faqs-holder">
+              <!-- faq 1 -->
+              <div class="faqs-item">
+                <p>Will you wear wigs?</p>
+              </div>
+
+              <!-- faq 2 -->
+              <div class="faqs-item">
+                <p>Have you worn wigs?</p>
+                <!-- lorem ipsum -->
+              </div>
+
+              <!-- faq 3 -->
+              <div class="faqs-item">
+                <p>Can you wear wigs?</p>
+              </div>
+
+              <!-- faq 4 -->
+              <div class="faqs-item">
+                <p>Do you wear wigs?</p>
+              </div>
+
+              <!-- faq 5 -->
+              <div class="faqs-item">
+                <p>When will you wear wigs?</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- our physical store section -->
+          <section id="map-location-section">
+            <h2 class="contacts-page-labels">Our Physical Store</h2>
+
+            <!-- map container -->
+            <div id="map-media">
+              <!-- insert map media -->
+            </div>
+          </section>
+
+          <!-- follow us section -->
+          <section id="follow-us-section">
+            <h2 class="contacts-page-labels">Follow Us</h2>
+
+            <!-- social-links holder -->
+            <div id="social-links-holder">
+              <!-- facebook wrapper -->
+              <!-- fb link -->
+              <a class="socials-wrapper" href="#">
+                <!-- icon here -->
+                <!-- temporary icon -->
+                <div class="socials-icon"></div>
+                <p>LockJaw - CDO</p>
+              </a>
+
+              <!-- instagram wrapper -->
+              <!-- ig link -->
+              <a class="socials-wrapper" href="#">
+                <!-- icon here -->
+                <!-- temporary icon -->
+                <div class="socials-icon"></div>
+                <p>lockjaw.cdo</p>
+              </a>
+            </div>
+          </section>
+
+          <!-- mail us section -->
+          <section id="mail-us-section">
+            <h2 class="contacts-page-labels">Mail Us</h2>
+
+            <!-- mail input holder -->
+            <div id="mail-input-holder">
+              <!-- name input wrapper -->
+              <div class="input-wrapper">
+                <p>Name</p>
+                <input type="text" id="name-input" />
+              </div>
+
+              <!-- email input wrapper -->
+              <div class="input-wrapper">
+                <p>E-mail / Contact No.</p>
+                <input type="text" id="email-contact-input" />
+              </div>
+
+              <!-- Your message input wrapper -->
+              <div class="input-wrapper">
+                <p>Your message</p>
+                <textarea name="your-message" id="message-textarea" cols="30" rows="10"></textarea>
+              </div>
+
+              <!-- mail us buttons -->
+              <div id="mail-us-buttons">
+                <button id="clear-all-texts">Clear</button>
+                <button id="submit-all-texts">Submit</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- sidebar -->
+      <div class="sidebar" id="sidebar-id">
+        <!-- cart items holder -->
+        <div class="cart-items-holder">
+          <!-- cart item 1 -->
+          <div class="cart-item">
+            <!-- cart item checkbox image and info wrapper -->
+            <div class="cart-item-image-info-wrapper">
+              <!-- checkbox -->
+              <input type="checkbox" name="check-item" class="check-item" />
+              <!-- cart item image -->
+              <div class="cart-item-image"></div>
+
+              <!-- cart item info -->
+              <div class="cart-item-info-wrapper">
+                <h4 class="cart-item-name">Item name</h4>
+                <p class="cart-item-variation">variation</p>
+                <p class="cart-item-price">P 100.00</p>
+              </div>
+            </div>
+
+            <!-- item counter -->
+            <div class="cart-item-counter"></div>
+          </div>
+
+          <!-- cart item # -->
+        </div>
+
+        <!-- sidebar buttons holder -->
+        <div class="sidebar-buttons-holder">
+          <button class="sidebar-remove">Remove</button>
+          <button class="sidebar-checkout">Check Out</button>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+
+    <!-- script here -->
+    <script src="/assets/script.js"></script>
+  </body>
+</html>

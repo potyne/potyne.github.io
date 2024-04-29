@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LockJaw - Home</title>
+
+    <!-- style here -->
+
+    <link rel="stylesheet" href="/assets/style.css" />
+
+    <!-- navigation -->
+    <style>
+      #logo-holder {
+        display: none;
+      }
+
+      @media (min-width: 768px) {
+        #logo-holder {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- will appear on min-width 768px and on contacts and profile page -->
+      <div id="logo-holder">
+        <h2>LockJaw</h2>
+      </div>
+
+      <!-- navigation for home, will disappear on contacts and profile page -->
+
+      <div id="search-and-cart">
+        <div id="search-holder">
+          <input type="search" name="search-item" id="search-bar" />
+          <button id="search-button">Search</button>
+        </div>
+
+        <button id="cart-button">Cart</button>
+      </div>
+    </header>
+
+    <!-- navigation placed at the bottom -->
+    <nav>
+      <div id="navigation-holder">
+        <!-- home -->
+        <!-- active -->
+        <a href="#" id="home-nav">Home</a>
+
+        <!-- contact page -->
+        <a href="/pages/contact_page.html" id="contact-nav">Contact</a>
+
+        <!-- profile -->
+        <a href="/pages/profile_page.html" id="profile-nav">Profile</a>
+      </div>
+    </nav>
+
+    <!-- main and sidebar wrapper -->
+    <div class="main-sidebar-wrapper">
+      <!-- main content -->
+      <main>
+        <!-- homepage -->
+        <div id="home-page">
+          <!-- banner section -->
+          <section id="banner-section">
+            <!-- poster goes here -->
+          </section>
+
+          <!-- items section -->
+          <section id="items-section">
+            <!-- all items -->
+            <div class="items-container" id="all-items">
+              <h2 id="all-items-label">All Items</h2>
+
+              <!-- child container for all items, display in grid -->
+              <div class="item-boxes-holder">
+                <!-- item box -->
+
+                <!-- box 1 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 2 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 3 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 4 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 5 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 6 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 7 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 8 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 9 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 10 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 11 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 12 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 13 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 14 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 15 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 16 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 17 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 18 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 19 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 20 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 21 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 22 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 23 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 24 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 25 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 26 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 27 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 28 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 29 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 30 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 31 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 32 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 33 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 34 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 35 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 36 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 37 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 38 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 39 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box 40 -->
+                <div class="item-box">
+                  <!-- image here, replace if picture is avaialble -->
+                  <div class="item-image"></div>
+
+                  <!-- item info wrapper -->
+                  <div class="item-info-wrapper">
+                    <!-- name and categ -->
+                    <div class="name-and-categ">
+                      <p class="item-name">Item name</p>
+                      <p class="item-categ">Category</p>
+                    </div>
+
+                    <!-- price-and-stock-state -->
+                    <div class="price-and-stock">
+                      <p class="item-price">10.00</p>
+                      <p class="item-stock">On-stock</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- box -->
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- sidebar -->
+      <div class="sidebar" id="sidebar-id">
+        <!-- cart items holder -->
+        <div class="cart-items-holder">
+          <!-- cart item 1 -->
+          <div class="cart-item">
+            <!-- cart item checkbox image and info wrapper -->
+            <div class="cart-item-image-info-wrapper">
+              <!-- checkbox -->
+              <input type="checkbox" name="check-item" class="check-item" />
+              <!-- cart item image -->
+              <div class="cart-item-image"></div>
+
+              <!-- cart item info -->
+              <div class="cart-item-info-wrapper">
+                <h4 class="cart-item-name">Item name</h4>
+                <p class="cart-item-variation">variation</p>
+                <p class="cart-item-price">P 100.00</p>
+              </div>
+            </div>
+
+            <!-- item counter -->
+            <div class="cart-item-counter"></div>
+          </div>
+
+          <!-- cart item # -->
+        </div>
+
+        <!-- sidebar buttons holder -->
+        <div class="sidebar-buttons-holder">
+          <button class="sidebar-remove">Remove</button>
+          <button class="sidebar-checkout">Check Out</button>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+
+    <footer></footer>
+
+    <!-- script here -->
+    <script src="/assets/script.js"></script>
+  </body>
+</html>
